@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@grpc-web-example/hello": ["libs/hello/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
